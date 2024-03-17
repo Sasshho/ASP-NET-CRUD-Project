@@ -1,0 +1,104 @@
+﻿@model IEnumerable<Priut_za_jivotni.Models.Dogs>
+
+@{
+    ViewData["Title"] = "Dogs";
+}
+
+<h1>Dogs</h1>
+<style>
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+        width: 100%; /* Full width */
+        padding: 12px; /* Some padding */
+        border: 1px solid #ccc; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 20px; /* Bottom margin */
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+    /* Style the submit button with a specific background color etc */
+    form a {
+        background-color: #3399ff;
+        color: white;
+        padding: 8px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 3px;
+        align-items:flex-start;
+        text-decoration:none;
+    }
+
+        /* When moving the mouse over the submit button, add a darker green color */
+                form a:hover {
+            background-color: #004d99;
+        }
+
+    /* Add a background color and some padding around the form */
+    .container {
+        border-radius: 5px;
+        background-color: #ccffff;
+        padding: 20px;
+    }
+</style>
+<b>Add, preview, edit and delete records of your dog here</b>
+<p>
+    <form>
+    <a asp-action="Create">Create
+        
+    </a>
+    </form>
+</p>
+
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Breed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Breed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                    <form>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                       
+                        <a asp-action="Details" asp-route-id="@item.Id" method="post">Details</a>
+                           
+                        <a asp-action="Delete" asp-route-id="@item.Id" method="post">Delete</a>
+                            
+                    </form>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

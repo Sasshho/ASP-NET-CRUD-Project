@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Priut za jivotni.props" />
+</Project>
