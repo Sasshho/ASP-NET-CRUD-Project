@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aleksandar.stamboliy\\Desktop\\Repository\\Priut za jivotni\\Priut za jivotni\\Priut za jivotni.csproj": {}
+    "C:\\Users\\aleksandar.stamboliy\\Desktop\\Priut za jivotni\\Priut za jivotni\\Priut za jivotni.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aleksandar.stamboliy\\Desktop\\Repository\\Priut za jivotni\\Priut za jivotni\\Priut za jivotni.csproj": {
+    "C:\\Users\\aleksandar.stamboliy\\Desktop\\Priut za jivotni\\Priut za jivotni\\Priut za jivotni.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleksandar.stamboliy\\Desktop\\Repository\\Priut za jivotni\\Priut za jivotni\\Priut za jivotni.csproj",
+        "projectUniqueName": "C:\\Users\\aleksandar.stamboliy\\Desktop\\Priut za jivotni\\Priut za jivotni\\Priut za jivotni.csproj",
         "projectName": "Priut za jivotni",
-        "projectPath": "C:\\Users\\aleksandar.stamboliy\\Desktop\\Repository\\Priut za jivotni\\Priut za jivotni\\Priut za jivotni.csproj",
+        "projectPath": "C:\\Users\\aleksandar.stamboliy\\Desktop\\Priut za jivotni\\Priut za jivotni\\Priut za jivotni.csproj",
         "packagesPath": "C:\\Users\\aleksandar.stamboliy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aleksandar.stamboliy\\Desktop\\Repository\\Priut za jivotni\\Priut za jivotni\\obj\\",
+        "outputPath": "C:\\Users\\aleksandar.stamboliy\\Desktop\\Priut za jivotni\\Priut za jivotni\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8hMw7n7nEvpjM00g1gitlbES2xopw4YcJ1uJV08D/dfP0/JcI3f6AmlPA+YkvueHKRXGFqBegYmXnDUSi43cPQ==",
+  "dgSpecHash": "7dUQJPGQsq370muiwrpxEzbVctiCMBn06IPIMXqIFqjpEIe9ckDaY2hvxxyTek+o5I/PnN1Ke/t3P1ROh08szA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aleksandar.stamboliy\\Desktop\\Repository\\Priut za jivotni\\Priut za jivotni\\Priut za jivotni.csproj",
+  "projectFilePath": "C:\\Users\\aleksandar.stamboliy\\Desktop\\Priut za jivotni\\Priut za jivotni\\Priut za jivotni.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleksandar.stamboliy\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\aleksandar.stamboliy\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
