@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Priut_za_jivotni.Data;
 
@@ -10,9 +11,11 @@ using Priut_za_jivotni.Data;
 namespace Priut_za_jivotni.Migrations
 {
     [DbContext(typeof(Priut_za_jivotniContext))]
-    partial class Priut_za_jivotniContextModelSnapshot : ModelSnapshot
+    [Migration("20240324090844_migraciq")]
+    partial class migraciq
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

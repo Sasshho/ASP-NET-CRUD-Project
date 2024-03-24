@@ -15,5 +15,7 @@ namespace Priut_za_jivotni.Data
         }
 
         public DbSet<Priut_za_jivotni.Models.Dogs> Dogs { get; set; } = default!;
+
+        public DbSet<Priut_za_jivotni.Models.Cats> Cats { get; set; } = default!;
     }
 }

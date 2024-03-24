@@ -1,10 +1,10 @@
-﻿@model IEnumerable<Priut_za_jivotni.Models.Dogs>
+﻿@model IEnumerable<Priut_za_jivotni.Models.Cats>
 
 @{
-    ViewData["Title"] = "Dogs";
+    ViewData["Title"] = "Cats";
 }
 
-<h1>Dogs</h1>
+<h1>Cats</h1>
 
 <style>
     /* Style inputs with type="text", select elements and textareas */
@@ -28,14 +28,14 @@
         border-radius: 4px;
         cursor: pointer;
         margin: 3px;
-        align-items:flex-start;
-        text-decoration:none;
+        align-items: flex-start;
+        text-decoration: none;
     }
 
         /* When moving the mouse over the submit button, add a darker green color */
-                form a:hover {
+        form a:hover {
             background-color: #0080ff;
-            color:white
+            color: white
         }
 
     /* Add a background color and some padding around the form */
@@ -46,17 +46,17 @@
     }
 </style>
 <b>Add, preview, edit and delete records of your dog here</b>
+
+
+
 <p>
     <form>
-    <a asp-action="Create">Create
-        
-    </a>
+        <a asp-action="Create">
+            Create
+
+        </a>
     </form>
 </p>
-
-
-
-
 <table class="table">
     <thead>
         <tr>
@@ -91,14 +91,14 @@
                 @Html.DisplayFor(modelItem => item.Age)
             </td>
             <td>
-                    <form>
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                       
-                        <a asp-action="Details" asp-route-id="@item.Id" method="post">Details</a>
-                           
-                        <a asp-action="Delete" asp-route-id="@item.Id" method="post">Delete</a>
-                            
-                    </form>
+                     <form>
+                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+
+                            <a asp-action="Details" asp-route-id="@item.Id" method="post">Details</a>
+
+                                    <a asp-action="Delete" asp-route-id="@item.Id" method="post">Delete</a>
+
+                        </form>
             </td>
         </tr>
 }

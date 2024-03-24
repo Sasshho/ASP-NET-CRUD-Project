@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\aleksandar.stamboliy\Desktop\Repository\Priut za jivotni\Priut za jivotni
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/aleksandar.stamboliy/Desktop/Repository/Priut za jivotni/Priut za jivotni/Views/Cats/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleksandar.stamboliy/Desktop/Repository/Priut za jivotni/Priut za jivotni/Views/Cats/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleksandar.stamboliy/Desktop/Repository/Priut za jivotni/Priut za jivotni/Views/Cats/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleksandar.stamboliy/Desktop/Repository/Priut za jivotni/Priut za jivotni/Views/Cats/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleksandar.stamboliy/Desktop/Repository/Priut za jivotni/Priut za jivotni/Views/Cats/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/aleksandar.stamboliy/Desktop/Repository/Priut za jivotni/Priut za jivotni/Views/Dogs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9nc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
